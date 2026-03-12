@@ -12,7 +12,7 @@
 
 ## 🌙 Origin Story
 
-Built in a single all-nighter. No sleep, too much coffee, and an obsession with understanding what really happens inside a neural network.
+Built in one night. I wanted to understand what actually happens inside a neural network — so I built one from scratch.
 
 The idea was simple: stop treating backpropagation as a black box — build it from scratch and *watch it learn* in real time. One night was enough.
 
