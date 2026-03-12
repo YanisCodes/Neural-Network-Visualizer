@@ -6,7 +6,9 @@ import sys
 import time
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-WIDTH, HEIGHT = 1400, 800
+pygame.init()
+info = pygame.display.Info()
+WIDTH, HEIGHT = info.current_w, info.current_h
 FPS = 60
 LAYER_SIZES = [2, 6, 6, 1]
 
@@ -338,8 +340,7 @@ class Renderer:
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 def main():
-    pygame.init()
-    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+    screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
     pygame.display.set_caption("NEURAL VIZ  //  YanisCodes")
     clock  = pygame.time.Clock()
 
