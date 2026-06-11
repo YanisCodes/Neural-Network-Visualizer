@@ -1,7 +1,29 @@
-﻿.venv/
-build/
-dist/
+﻿# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.spec
-*.pyc
-*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.conda/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS junk
+Thumbs.db
+.DS_Store
